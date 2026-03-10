@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_IMAGE = 'satwiek/test-dev:latest'
         DEPLOY_FILE  = 'deploy.yaml'
-        DOMAIN       = 'micro123.duckdns.org'
+        DOMAIN       = 'satwiek.xyz'
     }
 
     stages {
@@ -114,5 +114,6 @@ pipeline {
         }
     }
 }
+
 
 
